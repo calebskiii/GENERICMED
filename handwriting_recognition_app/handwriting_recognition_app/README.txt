@@ -29,4 +29,6 @@ IMPORTANT NOTES
 - It loads the checkpoint once. It does not train or fine-tune the model.
 - The app is intended for one-line English handwriting input. Long multi-line text is
   not automatically segmented into separate lines.
+- Handwriting can be entered on the canvas or uploaded as a PNG, JPEG, BMP, TIFF, or
+  WebP image. The upload tab can compare a prediction with an optional expected text.
 - Panelist demonstration predictions are not part of the IAM test-set evaluation.
