@@ -8,15 +8,14 @@ FILES
 SETUP (Windows PowerShell)
 1. Install Python 3.10 or 3.11 (recommended for PyTorch compatibility).
 2. Open PowerShell in this folder.
-3. Create and activate a virtual environment:
-   py -m venv venv
-   .\venv\Scripts\Activate.ps1
+3. Create a virtual environment:
+   py -m venv .venv
 4. Install dependencies:
-   python -m pip install --upgrade pip
-   pip install -r requirements.txt
+   .\.venv\Scripts\python.exe -m pip install --upgrade pip
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 5. Copy cnn_tcn_gated_fixedlr_v2.pth into this folder.
 6. Start the app:
-   streamlit run app.py
+   .\.venv\Scripts\python.exe -m streamlit run app.py
 7. Open the local address Streamlit prints (usually http://localhost:8501).
 
 CHECKPOINT
